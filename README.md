@@ -103,3 +103,22 @@ Para este caso:
 El programa también será probado con otros valores, incluyendo datos inválidos y valores repetidos.
 
 ---
+-------------------ANALISIS---------------------------------------------
+------------------------------------------------------------------------
+Programa de Registro y Análisis de Tiempos de Respuesta de un Servidor
+
+El programa tiene como objetivo registrar y analizar los tiempos de respuesta de un servidor para una empresa. A través de diferentes mediciones, permite almacenar los datos y realizar operaciones matemáticas que facilitan el análisis del rendimiento del servidor.
+
+FUNCIONES 
+
+Para desarrollar el programa, se siguen una serie de pasos que permiten organizar y procesar la información:
+
+1. Crear una estructura de almacenamiento: se define un arreglo que permita guardar todas las mediciones de los tiempos de respuesta del servidor.
+2. Ingresar las mediciones: se solicita al usuario la cantidad de mediciones que desea registrar y, posteriormente, se ingresan los tiempos correspondientes.
+3. Calcular el total: se realiza la suma de todos los tiempos de respuesta registrados.
+4. Calcular el promedio: se obtiene el promedio de los tiempos mediante la suma total dividida entre la cantidad de mediciones.
+5. Identificar el tiempo mínimo: se determina cuál fue el menor tiempo de respuesta registrado.
+6. Contar las mediciones inferiores al promedio: se calcula cuántos tiempos de respuesta están por debajo del promedio obtenido.
+7. Identificar la posición de la menor medición: se determina en qué posición del arreglo se encuentra el menor tiempo registrado.
+8. Mostrar el listado de mediciones: finalmente, se presentan todos los tiempos de respuesta ingresados por el usuario.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
